@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swiper Web Side</title>
+    <link rel="stylesheet" href="style1.css">
+    <link href="https://fonts.cdnfonts.com/css/dune-rise" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script defer src="script1.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <nav>
+            <ul>
+                <li><a href="#home" class="nav-link" data-index="0">Home</a></li>
+                <li><a href="#about" class="nav-link" data-index="1">About Me</a></li>
+                <li><a href="#skills" class="nav-link" data-index="2">Skills</a></li>
+                <li><a href="#projects" class="nav-link" data-index="3">Projects</a></li>
+                <li><a href="#contact" class="nav-link" data-index="4">Contact Me</a></li>
+            </ul>
+        </nav>
+
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <!-- home -->
+                <div class="swiper-slide" id="home">
+                    <h1>Hello, I'm Zhasmina</h1>
+                    <p>Welcome to my personal website. Explore to know more about me, my skills, and my projects.</p>
+                </div>
+                
+                <!-- about -->
+                <div class="swiper-slide" id="about">
+                    <h1>Who am I?</h1>
+                    <p>I am Zhasmina, a determined individual transitioning from a successful career in hospitality management to the dynamic field of software development. With a strong foundation in teamwork, effective communication, and attention to detail cultivated during my tenure in hospitality, I bring a unique blend of skills and experiences to the world of technology. <br>
+                        <br>Driven by a passion for innovation and a commitment to personal and professional growth, I embarked on a journey of self-discovery and skill acquisition. Through independent study and participation in a rigorous 12 weeks software development bootcamp, I acquired proficiency in a range of front-end and back-end technologies, including HTML5, CSS3, JavaScript, Python, Database Design and Java. <br>
+                        <br>My dedication to excellence extends beyond technical proficiency. I am known for my proactive approach to problem-solving, ability to thrive in dynamic environments, and dedication to fostering collaborative relationships. I am eager to leverage my diverse skill set and embark on a fulfilling professional journey as a Junior Software Developer, contributing to innovative projects and driving positive change in the technology landscape. <br>
+                    </p>   
+                </div>
+                
+                <!-- skills -->
+                <div class="swiper-slide" id="skills">
+                    <h1>Skills</h1>
+                    <p>My coding journey began with the foundational elements of web development—HTML, CSS, JavaScript and Python through exploration and self-learning which layed the groundwork for my transition into software development. <br><br>
+                          Completing the Just IT Software Development Bootcamp was an enriching experience that provided me with a comprehensive understanding of key technologies and methodologies essential for launching a successful career in software development. The program, aligned with Level 3 qualification standards, offered practical hands-on experience in industry-standard programming languages and essential concepts, including:
+                          HTML, JavaScript, CSS, Database Design, Python. <br><br>
+                          In addition to these core components, I further upskilled in:
+                          Database Management: MySQL and Python's SQLite, Web Frameworks: Deployment with Flask, Version Control: Git and GitHub. <br><br>
+                          This immersive experience not only expanded my technical knowledge but also equipped me with practical, hands-on skills essential for real-world projects. <br><br>
+                          Dedicated to continuous learning, I stay updated with the latest trends and technologies through platforms like Codecademy and industry podcasts. Additionally, I follow influential figures in the software development community on YouTube and Instagram, enriching my knowledge and staying inspired by their insights and expertise. <br><br>
+                          Fun Fact: During the Consolidation week of the bootcamp, I inadvertently deleted all my project files while working with Git. It was a challenging moment that required working around the clock to recover the projects. However, I successfully overcame the setback and emerged with valuable lessons in resilience and problem-solving. 🔥
+                    </p>
+              
+                    <div class="skills-icons">
+                        <img src="media/icons8-html-240.png" alt="html icon">
+                        <img src="media/icons8-css-240.png" alt="css icon">
+                        <img src="media/icons8-javascript-240.png" alt="javaScript">
+                        <img src="media/icons8-python-240.png" alt="python icon">
+                        <img src="media/icons8-mysql-240.png" alt="mySQL icon">
+                        <img src="media/icons8-java-96.png" alt="java icon">
+                    </div>
+                </div>
+                
+                <!-- projects -->
+                <div class="swiper-slide" id="projects">
+                    <div class="slide-content">
+                        <h1>Projects</h1>
+                        <div class="project-sections">
+                            <!-- project 1 -->
+                            <div class="project-description">
+                                <h2>FilmFLix with Flask</h2>
+                                <p>FilmFlix is a Flask web application for managing a film database. It allows users to browse, add, update, and delete film records with ease. <br> Challenging, complex, I love the wholeness of this project. For styling I used the front-end framework Bootstrap.</p>
+                            </div>
+
+                            <!-- <div class="project-button">
+                                <a href="https://filmflix-flask-77q1.onrender.com/" target="_blank">View Project</a>
+                            </div> -->
+                
+                            <div class="project-iframe">
+                                <iframe src="https://filmflix-flask-77q1.onrender.com/" width="100%" height="600" frameborder="0"></iframe>
+                            </div>      
+                                
+                        
+                            <!-- project 2 -->
+                            <div class="project-description">
+                                <h2>FilmFlix Project</h2>
+                                <p>Developed a command-line Python application for FilmFlix, enabling management of their film database with CRUD operations. Utilized SQLite3 SQL database for seamless integration. Features include printing all records, adding, updating, and deleting film entries, and generating various reports based on genre, year, and rating. Streamlined user experience with intuitive menu options for easy navigation. <br> I enjoyed working on this Python app with SQLite database. I am proud I achieved to embed the Search menu in the main.</p>
+                            </div>
+
+                            <!-- <div class="project-button">
+                                <a href="https://replit.com/@zhasminaangelov/FilmFlix-Project?embed=true" target="_blank">View Project</a>
+                            </div> -->
+                
+                            <div class="project-iframe">
+                                <iframe src="https://replit.com/@zhasminaangelov/FilmFlix-Project?embed=true" width="100%" height="600" frameborder="0" ></iframe>
+                            </div>  
+                                
+                                    
+                            <!-- project 3 -->
+                            <div class="project-description">
+                                <h2>JS Calculator</h2>
+                                <p>This is my first JavaScript project from the bootcamp - a fully functional calculator using JavaScript, HTML, and CSS. Implemented logic for arithmetic operations, decimal input, and sequential calculations. Utilized event listeners to capture user input and dynamically update the display. Ensured smooth user experience with error handling and responsive design.</p>
+                            </div>
+
+                            <!-- <div class="project-button">
+                                <a href="https://zhangelova.github.io/JScalculator/" target="_blank">View Project</a>
+                            </div> -->
+                
+                            <div class="project-iframe">
+                                <iframe src="https://zhangelova.github.io/JScalculator/" width="100%" height="600"  frameborder="0" ></iframe>
+                            </div>
+                         
+                        </div>
+                    </div>        
+                </div>
+                
+                <!-- contacts -->
+                <div class="swiper-slide" id="contact">
+                    <h1>Contact Me</h1>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/zhasmina-angelova/" target="_blank"><i class="fab fa-linkedin"></i>https://www.linkedin.com/in/zhasmina-angelova/</a>
+                        <a href="https://github.com/ZhAngelova" target="_blank"><i class="fab fa-github"></i> https://github.com/ZhAngelova</a>
+                        <a href="media/CV Zhasmina Angelova.pdf" target="_blank" class="cv"><i class="fas fa-file"></i>CV</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+
+
+
+
+
+
