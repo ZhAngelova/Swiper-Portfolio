@@ -1,4 +1,3 @@
-/* Comprehensive CSS Reset */
 * {
     margin: 0;
     padding: 0;
@@ -63,19 +62,20 @@ nav ul li a {
     width: 100%;
     height: 100vh;
     padding: 0;
-    margin-top: 50px; /* Offset for fixed nav */
+    margin-top: 50px;
 }
 
 .swiper-slide {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     text-align: center;
-    height: 100%;
-    font-size: 1.2em;
-    background-color: #000; 
-    padding: 20px;
+    height: 100%; 
+    font-size: 1.5em;
+    background-color: #000;
+    padding: 30px;
+    overflow-y: auto; 
 }
 
 #home {
@@ -98,7 +98,7 @@ nav ul li a {
     background: linear-gradient(to right, #66ffff 0%, #99ccff 100%);
 }
 
-/* Responsive images */
+/* Skills Section */
 .skills-icons img {
     width: 80px; 
     margin: 20px;
@@ -108,15 +108,19 @@ nav ul li a {
 .project-sections {
     width: 100%;
     padding: 20px;
+    padding-bottom: 50px;
 }
 
-.project-iframe {
+.project-iframe iframe {
     margin-bottom: 30px;
+    width: 100%;
+    height: 500px;
 }
 
 .project-description {
     margin-bottom: 30px;
-    padding: 0 10px;
+    /* padding: 0 10px; */
+    padding-bottom: 50px;
 }
 
 /* Contact me */
@@ -134,7 +138,7 @@ i {
     padding-right: 10px;
 }
 
-/* Mobile-specific styles */
+/* Mobile phone responsive design */
 @media (max-width: 480px) {
     nav ul {
         flex-wrap: wrap; 
@@ -177,7 +181,7 @@ i {
         padding: 10px;
     }
 
-    .project-iframe {
+    .project-iframe iframe{
         height: 400px; 
     }
 
@@ -185,10 +189,23 @@ i {
     #home, #about, #skills, #projects, #contact {
         padding: 20px;
     }
+
+
+    .social-icons a {
+        font-size: 14px; 
+        word-break: break-all;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 5px;
+    }
+
+    .social-icons i {
+        font-size: 30px; 
+        padding-right: 10px;
+    }
 }
 
-
-  
 
 
   
