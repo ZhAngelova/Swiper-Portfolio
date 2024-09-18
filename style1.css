@@ -9,7 +9,7 @@ html, body {
     height: 100%;
     overflow-x: hidden;
     background-color: #000;
-    
+}    
 
 /* Main container that wraps everything */
 .container {
@@ -188,7 +188,8 @@ i {
     .swiper-slide h1 {
         margin-bottom: 20px;
 
-    
+    } 
+
     .skills-icons img {
         width: 60px;       
         margin: 10px;     
